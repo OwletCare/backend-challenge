@@ -1,0 +1,14 @@
+version: '3'
+services:
+  flask:
+    image: skeleton-flask:local
+    build:
+      context: .
+      dockerfile: Dockerfile-local
+    volumes:
+      - .:/usr/local/src
+    ports:
+      - $PORT:5000
+    command:
+      - python
+      - main.py
