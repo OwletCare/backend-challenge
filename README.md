@@ -7,8 +7,7 @@ Use either MySQL or Postgres as the database(dev's choice).
 # Instructions:
     1) clone the repo
     2) Implement the methods
-    3) commit to your Github repo
-    4) send us the link to your repo so we can evaluate
-    5) bonus if you containerize the app
+    3) When your satisfied with your code tar/zip it up and email it to mmargetts@owletcare.com
+    4) bonus if you containerize the app
  
 
